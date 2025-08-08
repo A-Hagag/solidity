@@ -16,4 +16,11 @@ contract Hello {
 
     // Data types in solidity : string , integer , boolean
     string carName = "Honda";
+
+    //int => signed integers (- or +)
+    //uint => unsigned integers (only +)
+
+    int x = -64;
+    uint256 y = 87;
+    // uint256 y = -87;    Error
 }
