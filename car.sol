@@ -22,6 +22,23 @@ contract Hello {
 
     int x = -64;
     uint256 carModel =2001;
-    // uint256 y = -87;    Error
+    // uint256 y = -2001;    Error
     bool redCar = true;
+    uint256 firstAmount = 800;
+    uint256 secondAmount = 900;
+    uint256 total = firstAmount + secondAmount;
+
+
+
+    function carOpen(bool isOpen) public pure  returns (bool){
+        return isOpen;
+    }
+
+    function getSum () public pure returns (uint256){
+        uint256 num1 = 70;
+        uint256 num2 = 30;
+
+        return num1 + num2;
+    }
+
 }
